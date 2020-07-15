@@ -1,6 +1,7 @@
 const submit = document.querySelector("#form");
 submit.addEventListener("submit", createCard)
 
+
 let greeting;
 let event;
 let message;
@@ -19,8 +20,13 @@ function createCard(e) {
 
     const card3 = document.querySelector("#cardEvent")
 
+
     const body = document.querySelector("body")
     
+
+    submit.style.display= "none";
+
+
     switch(event) {
         case"birthday":
         card3.textContent="Wishing you a Happy Birthday!"
@@ -50,12 +56,15 @@ function createCard(e) {
     }
 
 
-
-
-
-
-
 }
+
+
+
+    
+    
+
+
+
 
 
 
