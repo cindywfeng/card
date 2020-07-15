@@ -19,23 +19,42 @@ function createCard(e) {
 
     const card3 = document.querySelector("#cardEvent")
 
+    const body = document.querySelector("body")
+    
     switch(event) {
         case"birthday":
         card3.textContent="Wishing you a Happy Birthday!"
+        body.style.backgroundImage = "url(https://wallpaperaccess.com/full/868170.jpg)"
+        body.style.backgroundSize = "Cover"
+
         break;
 
         case"wedAni":
         card3.textContent="Wishing you a Happy Wedding!"
+        body.style.backgroundImage = "url(https://images.unsplash.com/photo-1591478575980-c3f37667c77c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60)"
+        body.style.backgroundSize = "Cover"
         break;
 
         case"graduation":
         card3.textContent="It's done at last!"
+        body.style.backgroundImage = "url(https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60)"
+        body.style.backgroundSize = "Cover"
         break;
 
         case"christmas":
         card3.textContent="We wish you a Merry Christmas!!"
+        body.style.backgroundImage = "url(https://images.unsplash.com/photo-1514377006585-6e7975371bd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60)"
+        body.style.backgroundSize = "Cover"
+        body.style.backgroundRepeat = "no-repeat"
         break;
     }
+
+
+
+
+
+
+
 }
 
 
