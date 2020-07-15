@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <form id="form">
+        <label for="greeting">Greeting</label>
+        <input type="text" id="greeting" 
+        placeholder="Enter Greeting" />
+
+        <br/>
+
+        <label for="event">Event</label>
+
+          <select id="event" name="cars">
+            <option id="birthday" value="birthday">Birthday</option>
+            <option value="wedAni">Wedding Anniversary</option>
+            <option value="graduation">Graduation</option>
+            <option value="christmas">Christmas</option>
+          </select>
+          <br/>
+
+        <label for="message">Message</label>
+        <input type="text" id="message" 
+        placeholder="Enter Message" />
+
+        <input type="submit" value="Submit">
+        
+    </form>
+
+    <div>
+        <h1 id="cardGreet"></h1>
+        <h2 id="cardEvent"></h2>
+        <h3 id="cardMessage"></h3>
+        
+      
+    </div>
+    
+</body>
+</html>
