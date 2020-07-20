@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script defer src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <form id="form">
-        <label for="greeting">Greeting</label>
+        <label for="greeting">Greeting (e.g. Hello John!)</label>
         <input type="text" id="greeting" 
         placeholder="Enter Greeting" />
 
         <br/>
 
-        <label for="event">Event</label>
+        <label for="event">What is the occasion?</label>
 
           <select id="event" name="cars">
             <option id="birthday" value="birthday">Birthday</option>
@@ -24,7 +25,7 @@
           </select>
           <br/>
 
-        <label for="message">Message</label>
+        <label for="message">Include a short message</label>
         <input type="text" id="message" 
         placeholder="Enter Message" />
 
@@ -32,12 +33,11 @@
         
     </form>
 
-    <div>
+    <div id="cardDisplay">
         <h1 id="cardGreet"></h1>
         <h2 id="cardEvent"></h2>
-        <h3 id="cardMessage"></h3>
-        
-      
+        <h2 id="cardMessage"></h2>
+             
     </div>
     
 </body>
